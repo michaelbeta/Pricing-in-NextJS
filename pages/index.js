@@ -42,7 +42,7 @@ export default function Home() {
        fontWeight: "800",
        textAlign: "center"
         }}>
-        <a className="autor" style={{fontSize: "2cw"}}>Diseñado por Michael Betancourt</a>
+        <a className="autor" style={{fontSize: "2vw"}}>Diseñado por Michael Betancourt</a>
       </footer>
     </div>
 
