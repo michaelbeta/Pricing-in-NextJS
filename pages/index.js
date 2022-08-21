@@ -14,11 +14,36 @@ export default function Home() {
   return (
     <div>
       <div className='container'>
-        <h1 className="text-center">Carousel</h1>
+        <h1 className="text-center">Carruseles</h1>
       </div>
+      <h2 style={{
+       fontSize: "2vw",
+       fontWeight: "800",
+       textAlign: "center"
+        }}>Carrusel 3D Rectangular</h2>
       <Carouseldesign slides={slides} autoplay={true} interval={5000} />
+      <h3 style={{
+       fontSize: "2vw",
+       fontWeight: "800",
+       textAlign: "center"
+        }}>
+          Carrusel 3D tipo tarjetas</h3>
       <CarouseldesignV2 slides={slides2} autoplay={true} interval={5000} />
+      <h3 style={{
+       fontSize: "2vw",
+       fontWeight: "800",
+       textAlign: "center"
+        }}>
+          Carrusel 3D Circular</h3>
       <CarouseldesignV3 slides={slides3} autoplay={true} interval={5000} />
+      <footer style={{
+       fontSize: "2cw",
+       color: "var(--clr-muted-max)",
+       fontWeight: "800",
+       textAlign: "center"
+        }}>
+        <a className="autor">Diseñado por Michael Betancourt</a>
+      </footer>
     </div>
 
   )
